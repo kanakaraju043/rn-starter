@@ -22,7 +22,7 @@ const HomeScreen = ({navigation}) => {
       />
       <Button
         title="Navigate to image list screen"
-        onPress={ () => navigation.navigate('ImageDetails')
+        onPress={ () => navigation.navigate('ImageList')
         }
       />
       
