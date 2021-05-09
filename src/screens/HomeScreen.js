@@ -25,6 +25,11 @@ const HomeScreen = ({navigation}) => {
         onPress={ () => navigation.navigate('ImageList')
         }
       />
+      <Button
+        title="Navigate to Flex screen"
+        onPress={ () => navigation.navigate('FlexDemo')
+        }
+      />
       
     </View>
   )
