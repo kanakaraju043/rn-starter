@@ -38,6 +38,13 @@ const HomeScreen = ({ navigation }) => {
         }
       />
       
+      <Button
+        title="Navigate Random color screen"
+        onPress = { () => navigation.navigate('RandomColorScreen')
+          
+        }
+      
+      />
     </View>
   )
 };

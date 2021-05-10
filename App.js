@@ -8,7 +8,8 @@ import ImageListScreen from './src/screens/ImageListScreen';
 import ImageDetailsScreen from './src/screens/ImageDetailsScreen'
 import FlexDemoScreen from './src/screens/FlexDemo'
 import CounterScreen from './src/screens/CounterScreenDemo'
- 
+import RandomColorDemoScreen from './src/screens/RandomColorDemo'
+
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -18,7 +19,8 @@ const navigator = createStackNavigator(
     ImageList: ImageListScreen,
     ImageDetails: ImageDetailsScreen,
     FlexDemo: FlexDemoScreen,
-    CounterDemo: CounterScreen
+    CounterDemo: CounterScreen,
+    RandomColorScreen: RandomColorDemoScreen
   },
   {
     initialRouteName: 'Home',
