@@ -11,7 +11,8 @@ const FlexDemoScreen = () => {
                 alignItems: "stretch",
                 justifyContent: "space-evenly",
                 flexWrap: "wrap",
-                alignContent: "flex-end"
+                // alignContent: "flex-end"
+                // flexBasis: 100,
             }
         }>
             <View
@@ -20,7 +21,9 @@ const FlexDemoScreen = () => {
                     height: 100,
                     borderColor: 'dodgerblue',
                     borderWidth: 1,
-                    backgroundColor: 'dodgerblue'
+                    backgroundColor: 'dodgerblue',
+                    flexGrow: 1,
+                    // flexShrink: 1
                 }}
             />
             <View
@@ -29,7 +32,9 @@ const FlexDemoScreen = () => {
                     height: 100,
                     borderColor: 'gold',
                     borderWidth: 1,
-                    backgroundColor: 'gold'
+                    backgroundColor: 'gold',
+                    bottom: 20,
+                    position: "absolute"
                 }}
             />
             <View
