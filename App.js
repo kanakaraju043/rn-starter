@@ -9,6 +9,8 @@ import ImageDetailsScreen from './src/screens/ImageDetailsScreen'
 import FlexDemoScreen from './src/screens/FlexDemo'
 import CounterScreen from './src/screens/CounterScreenDemo'
 import RandomColorDemoScreen from './src/screens/RandomColorDemo'
+import SquareScreen from './src/screens/SquareScreen'
+import InputFieldDemoScreen from './src/screens/InputFieldDemo'
 
 const navigator = createStackNavigator(
   {
@@ -20,7 +22,9 @@ const navigator = createStackNavigator(
     ImageDetails: ImageDetailsScreen,
     FlexDemo: FlexDemoScreen,
     CounterDemo: CounterScreen,
-    RandomColorScreen: RandomColorDemoScreen
+    RandomColorScreen: RandomColorDemoScreen,
+    SquareDemo: SquareScreen,
+    InputField: InputFieldDemoScreen
   },
   {
     initialRouteName: 'Home',
